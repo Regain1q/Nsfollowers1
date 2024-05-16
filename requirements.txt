@@ -1,0 +1,4 @@
+requests
+pycryptodomex
+pycryptodome
+pycrypto
