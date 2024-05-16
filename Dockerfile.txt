@@ -11,4 +11,4 @@ COPY . .
 # RUN pip install --no-cache-dir -r requirements.txt
 
 # Run enc.py when the container launches
-CMD ["python", "./enc.py"]
+CMD ["python", "./Ns_Followers.py"]
