@@ -11,9 +11,9 @@ class Ns_Followers:
         self.requests=requests
         self.__AES_NoPadding = AES_CBC_NoPadding()
 
-        self.__userid='66560169923' #Enter UserID Here
-        self.__username='qernubhu972' #Enter UserName Here' #Enter SessionID Here
-        self._session='66560169923:51BdFwoCebTVCQ:26:AYfwO1Bwq1N7Iyn__LbwUy_29wTsFS8Ztvm3ZXn11g'
+        self.__userid='67062576685' #Enter UserID Here
+        self.__username='o_72_i' #Enter UserName Here' #Enter SessionID Here
+        self._session='67062576685:7nGqO8DCII2zsj:26:AYcyr3N4i6Gdb3P-0Gmvax2BfEL5DXr3K_FStkyi1Q'
         
         
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
@@ -117,10 +117,10 @@ if __name__ == '__main__':
             if "suggests" in suff.text:
                 for items in suff.json()['suggests']:
                     print(cl.PlaceOrder(items))
-                    time.sleep(random.randint(5,7))
+                    time.sleep(random.randint(15,17))
             else:
                 print(suff.text)
-                time.sleep(6)
+                time.sleep(16)
         except Exception as E:
             print(E)
-            time.sleep(5)
+            time.sleep(10)
